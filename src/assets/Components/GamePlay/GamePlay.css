@@ -1,0 +1,100 @@
+.game-play-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+}
+.game-play-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.upper{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.upper-left{
+    text-align: center;
+}
+.upper-left label{
+    font-size: 80px;
+    font-weight: 400;
+    /* padding: 0 auto; */
+    /* margin-bottom: -30px; */
+}
+.upper-left h3{
+    /* padding: 0 0 0px 0; */
+}
+.upper-right{
+    text-align: center;
+}
+.dice-num{
+    display: flex;
+    gap: 10px;
+}
+.dice-num p{
+    border: 1px solid black;
+    height: 42px;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.selected{
+    background-color: black;
+    color: white;
+}
+
+/* body */
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.body img{
+    width: 150px;
+}
+.reset-btn{
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 7px 0;
+    transition: 0.3s background ease-in;
+    cursor: pointer;
+}
+.reset-btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s background ease-in;
+}
+.show-rules-btn{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 7px 0;
+    border: 1px solid transparent;
+    transition: 0.3s background ease-in;
+    cursor: pointer;
+}
+.show-rules-btn:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.2s background ease-in;
+}
+.lower{
+    background-color: #FBF1F1;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-top: 5px;
+}
