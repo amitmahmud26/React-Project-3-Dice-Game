@@ -48,6 +48,9 @@ const GamePlay = () => {
     // if (selectedNumber === -999) {
     // }
   };
+  const handleResetButton =() =>{
+    setTotalScore(0);
+  }
   return (
     <div className="game-play-parent">
       <div className="game-play-container">
@@ -78,10 +81,10 @@ const GamePlay = () => {
           <img
             onClick={handleRandomNum}
             src={`../../../../public/images/dice_${diceNum}.png`}
-            alt=""
+            alt="dice"
           />
           <p>Click on Dice to roll</p>
-          <div className="reset-btn">Reset Button</div>
+          <div onClick={handleResetButton} className="reset-btn">Reset Button</div>
           <div onClick={handleShowRules} className="show-rules-btn">
             {showButton} Rules
           </div>
