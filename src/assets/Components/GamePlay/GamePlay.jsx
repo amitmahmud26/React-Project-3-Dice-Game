@@ -80,7 +80,7 @@ const GamePlay = () => {
         <div className="body">
           <img
             onClick={handleRandomNum}
-            src={`../../../../public/images/dice_${diceNum}.png`}
+            src={`/images/dice_${diceNum}.png`}
             alt="dice"
           />
           <p>Click on Dice to roll</p>

@@ -5,7 +5,7 @@ const StartGame = ({toggle}) => {
     <div className="parent">
       <div className="container">
         <div className="left-img">
-          <img src="../../../public/images/dices.png" alt="dices" />
+          <img src="/images/dices.png" alt="dices" />
         </div>
         <div className="right-btn">
           <h1>DICE GAME</h1>
